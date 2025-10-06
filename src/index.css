@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -15,26 +15,26 @@
     --popover: 0 0% 100%;
     --popover-foreground: 180 45% 20%;
 
-    --primary: 0 69% 70%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 180 54% 56%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 9%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 180 10% 50%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
 
-    --accent: 50 100% 70%;
-    --accent-foreground: 180 45% 20%;
+    --accent: 0 0% 9%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 180 20% 90%;
-    --input: 180 20% 90%;
-    --ring: 180 54% 56%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 0 0% 9%;
 
-    --radius: 1rem;
+    --radius: 0.5rem;
 
     --corquoise: 0 69% 70%;
     --montserrat-color: 180 54% 56%;
@@ -98,7 +98,7 @@
   body {
     @apply bg-background text-foreground;
     font-family:
-      "Montserrat",
+      "Inter",
       -apple-system,
       BlinkMacSystemFont,
       "Segoe UI",
@@ -111,6 +111,7 @@
   h4,
   h5,
   h6 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
   }
 }
